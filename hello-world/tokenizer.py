@@ -1,6 +1,5 @@
 from transformers import AutoTokenizer  # Or BertTokenizer
 
-model = AutoModelForPreTraining.from_pretrained('neuralmind/bert-base-portuguese-cased')
 tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-base-portuguese-cased', do_lower_case=False)
 
 
